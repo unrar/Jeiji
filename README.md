@@ -4,7 +4,6 @@ Jeiji
 
 Jeiji is a middleware that helps you to manage any kind of cloud. You can use the ``jeiji`` command (see
 below), but it's also possible to use it in a Python file::
-
 	#!/usr/bin/env python
     	from jeiji import cloud
     	from jeiji import jeiji
