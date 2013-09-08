@@ -6,10 +6,8 @@ Jeiji is a middleware that helps you to manage any kind of cloud. You can use th
 below), but it's also possible to use it in a Python file::
 
 	#!/usr/bin/env python
-
     	from jeiji import cloud
     	from jeiji import jeiji
-
     	c = new cloud.Cloud
     	c.describe("Windows Azure", "http://myapp.azure.com", 1010, "username", "sha256password")
     	j = new jeiji.Jeiji(c)
